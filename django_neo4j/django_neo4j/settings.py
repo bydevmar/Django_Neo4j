@@ -81,6 +81,16 @@ DATABASES = {
     }
 }
 
+NEO4J_DATABASES = {
+    'default': {
+        'HOST': 'localhost',
+        'PORT': 7687,
+        'USER': 'neo4j',
+        'PASSWORD': '12345678',
+        'SCHEME': 'bolt',
+    }
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
