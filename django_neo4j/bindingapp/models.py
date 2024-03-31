@@ -1,7 +1,3 @@
-from django_neo4j.models import NodeModel, StringProperty
+from django.db import models
+
 # Create your models here.
-
-
-class Person(NodeModel):
-    name = StringProperty()
-    age = IntegerProperty()

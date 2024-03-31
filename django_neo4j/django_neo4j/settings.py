@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-6=b%2u^447q)2x#r!mcz)^+p56$b*v88*8v0x!e&@u#_j3=(tc'
+SECRET_KEY = 'django-insecure-s7d+&*sr*g_m6ov#a=eu-kyk74$av1mntpnaf@2a74%7y7!lf6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -78,16 +78,6 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
-NEO4J_DATABASES = {
-    'default': {
-        'HOST': 'localhost',
-        'PORT': 7687,
-        'USER': 'neo4j',
-        'PASSWORD': '12345678',
-        'SCHEME': 'bolt',
     }
 }
 
