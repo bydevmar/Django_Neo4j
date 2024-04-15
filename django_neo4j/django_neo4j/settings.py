@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+from neomodel import config
+
+NEOMODEL_NEO4J_BOLT_URL = "bolt://neo4j:password@localhost:7687"
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
